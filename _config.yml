@@ -1,0 +1,89 @@
+# Site settings
+title: CCM Blog
+SEOTitle: CCM的博客 | CCM Blog
+header-img: img/home-bg-geek.jpg
+email: ccmien@gmail.com
+description: "致知。"
+keyword: ""
+url: "http://iccm.cc"              # your host, for absolute URL
+baseurl: ""         # for example, '/blog' if your blog hosted on 'host/blog'
+
+
+
+# SNS settings
+RSS: true
+# weibo_username:     
+# zhihu_username:     
+github_username:    ccmien
+#twitter_username:  
+# facebook_username:  
+linkedin_username:  chaominchen
+
+
+
+# Build settings
+# from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
+highlighter: rouge
+permalink: pretty
+paginate: 10
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md","README.zh.md"]
+anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
+
+
+
+# Gems
+# from PR#40, to support local preview for Jekyll 3.0
+gems: [jekyll-paginate]
+
+
+
+# Markdown settings
+# replace redcarpet to kramdown,
+# although redcarpet can auto highlight code, the lack of header-id make the catalog impossible, so I switch to kramdown
+# document: http://jekyllrb.com/docs/configuration/#kramdown
+markdown: kramdown
+kramdown:
+  input: GFM                            # use Github Flavored Markdown !important
+
+
+
+# Disqus settings
+#disqus_username: _your_disqus_short_name_
+
+# Duoshuo settings
+duoshuo_username: iccm
+# Share component is depend on Comment so we can NOT use share only.
+duoshuo_share: true                     # set to false if you want to use Comment without Sharing
+
+
+
+
+# Analytics settings
+# Baidu Analytics
+ba_track_id: 3d0b352074818a5d8d272e1934b15a87
+# Google Analytics
+ga_track_id: UA-20133350-6             # Format: UA-xxxxxx-xx
+ga_domain: iccm.cc
+
+
+
+# Sidebar settings
+sidebar: true                           # whether or not using Sidebar.
+sidebar-about-description: "Always Curious"
+# sidebar-avatar: /img/      # use absolute URL, seeing it's used in both `/` and `/about/`
+
+
+
+# Featured Tags
+featured-tags: true                     # whether or not using Feature-Tags
+featured-condition-size: 1              # A tag will be featured if the size of it is more than this condition value
+
+
+
+# Friends
+# friends: [
+#     {
+#         title: "",
+#         href: ""
+#     },
+# ]
