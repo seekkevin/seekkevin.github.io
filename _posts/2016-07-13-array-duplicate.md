@@ -8,6 +8,8 @@ post_views_count:
 categories:
   - c/c++
   - 问题描述
+tags:
+  - 算法
 ---
 
 
