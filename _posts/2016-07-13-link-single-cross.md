@@ -2,7 +2,7 @@
 title: 单向链表是否交叉
 author: k
 layout: post
-permalink: /c-face-no1/
+permalink: /link-single-cross/
 post_views_count:
   - 0
 categories:
