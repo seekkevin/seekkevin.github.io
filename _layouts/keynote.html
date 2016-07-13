@@ -10,7 +10,7 @@ layout: default
 <style type="text/css">
     header.intro-header{
         /*background-image: url('{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}')*/
-        height: 500px;
+        height: 50px;
         overflow: hidden;
     }
     header iframe{
@@ -174,7 +174,7 @@ layout: default
          * - told/imply users that there has more content below
          * - let user can scroll in mobile device, seeing the keynote-view is unscrollable
          */
-        $header.style.height = (window.innerHeight-185) + 'px';
+        $header.style.height = (window.innerHeight-85) + 'px';
     }
     document.addEventListener('DOMContentLoaded', function(){
         resize();
