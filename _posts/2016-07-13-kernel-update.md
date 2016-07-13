@@ -2,7 +2,7 @@
 title: centos2.6.18升级到2.6.39
 author: k
 layout: post
-permalink: /c-face-no1/
+permalink: /kernel-update/
 post_views_count:
   - 0
 categories:
