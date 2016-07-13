@@ -1,11 +1,11 @@
 # Site settings
-title: CCM Blog
-SEOTitle: CCM的博客 | CCM Blog
-header-img: img/home-bg-geek.jpg
-email: ccmien@gmail.com
-description: "致知。"
-keyword: ""
-url: "http://iccm.cc"              # your host, for absolute URL
+title: 0x1a
+SEOTitle: 0x1a | hack
+header-img: img/head_bg.jpg
+email: seekkevin@gmail.com
+description: "0x1d"
+keyword: "jj"
+url: "http://www.geeken.info"              # your host, for absolute URL
 baseurl: ""         # for example, '/blog' if your blog hosted on 'host/blog'
 
 
@@ -14,10 +14,10 @@ baseurl: ""         # for example, '/blog' if your blog hosted on 'host/blog'
 RSS: true
 # weibo_username:     
 # zhihu_username:     
-github_username:    ccmien
+github_username:    seekkevin
 #twitter_username:  
 # facebook_username:  
-linkedin_username:  chaominchen
+#linkedin_username:  chaominchen
 
 
 
@@ -51,7 +51,7 @@ kramdown:
 #disqus_username: _your_disqus_short_name_
 
 # Duoshuo settings
-duoshuo_username: iccm
+duoshuo_username: seekkevin
 # Share component is depend on Comment so we can NOT use share only.
 duoshuo_share: true                     # set to false if you want to use Comment without Sharing
 
@@ -63,7 +63,7 @@ duoshuo_share: true                     # set to false if you want to use Commen
 ba_track_id: 3d0b352074818a5d8d272e1934b15a87
 # Google Analytics
 ga_track_id: UA-20133350-6             # Format: UA-xxxxxx-xx
-ga_domain: iccm.cc
+ga_domain: geeken.info
 
 
 
