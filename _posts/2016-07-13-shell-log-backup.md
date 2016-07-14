@@ -42,7 +42,7 @@ cfg
 	# This is a parameter for crontab and objective file.
 	begin=15
 
-	# This are some log path 
+	# These are some log path 
 	# logpath=/root/shell/log/26;/root/shell/log/27;/root/shell/log/28
 	logpath=/home/pospadm/trc
 
