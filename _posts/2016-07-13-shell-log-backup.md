@@ -118,8 +118,8 @@ start.sh
     	for f in ${filelist[@]}
     	do
        		dir=`echo ${f} | awk -F '/' '{ print $(NF - 1) }'`    
-        	mkdir ${dir} 2>/dev/null
-        	mv ${f} ${dir}
+			mkdir ${dir} 2>/dev/null
+			mv ${f} ${dir}
     	done
 	done
 
