@@ -66,25 +66,25 @@ crontab.sh
 	# @Parameter: specific crontab task
 	docrontab()
 	{
-    cronfile="/tmp/crontab.${USER}"
-    crontab -l > ${cronfile}
-    query=`echo "$1" | sed 's/*/\\\*/g'`
-    grep -q "${query}" ${cronfile} && echo "" ||
-    {
+    	cronfile="/tmp/crontab.${USER}"
+    	crontab -l > ${cronfile}
+    	query=`echo "$1" | sed 's/*/\\\*/g'`
+    	grep -q "${query}" ${cronfile} && echo "" ||
+    	{
             echo "$1" >> ${cronfile}
             crontab ${cronfile}
-    }
-    rm -f ${cronfile}
+    	}
+    	rm -f ${cronfile}
 	}
 
 readme
 
 	1.设置环境变量
-	log_bak=脚本所在目录
+		log_bak=脚本所在目录
 	2.启动脚本
-	./start.sh
+		./start.sh
 	3.停止脚本
-	./stop.sh
+		./stop.sh
 
 start.sh
 
