@@ -26,7 +26,7 @@ tags:
         
     	if(d <= TOTAL_ELEMENTS - 2)
     	{
-        	x = array[d + 3];
+			x = array[d + 3];
     	}
 
     	return 0;
@@ -122,14 +122,14 @@ d的类型为int，这里的比较就涉及到类型转换了，一般都是低�
 	#include <stdio.h>
  
 	int main()
- 	{
-     float a = 12.25;
+	{
+		float a = 12.25;
  
-     int* p = (int*)&a;
-     printf("%#x\n", *p);
+		int* p = (int*)&a;
+		printf("%#x\n", *p);
  
-     return 0;
- 	}
+		return 0;
+	}
 
 例二：
 
