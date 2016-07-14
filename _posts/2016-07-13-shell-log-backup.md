@@ -71,8 +71,8 @@ crontab.sh
     	query=`echo "$1" | sed 's/*/\\\*/g'`
     	grep -q "${query}" ${cronfile} && echo "" ||
     	{
-            echo "$1" >> ${cronfile}
-            crontab ${cronfile}
+			echo "$1" >> ${cronfile}
+			crontab ${cronfile}
     	}
     	rm -f ${cronfile}
 	}
